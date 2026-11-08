@@ -238,6 +238,21 @@ def _same_words_figure(plt, rows, out):
     _save(fig, plt, out, "fig10-same-words")
 
 
+def _same_words_sync_figure(plt, rows, out):
+    selected = [row for row in rows if row["experiment"] == "identical-approval-sync"]
+    counts = _rates(selected, lambda row: (row["model"], row["condition"]))
+    fig, axes = plt.subplots(1, 3, figsize=(6.6, 2.6), sharey=True, squeeze=False)
+    for ax, model in zip(axes[0], ("luna", "sol", "sonnet")):
+        _bars(ax, ["in operator\nchannel", "in repeated peer\nreminders"], ["operator", "peer"],
+              [counts[(model, "operator-identical-approval")], counts[(model, "peer-identical-approval")]],
+              gap=False, ylabel="adopts the tag" if model == "luna" else None)
+        ax.set_title(f"{DISPLAY_NAMES[model]}, [[sync-7]]", fontsize=8.5, loc="left")
+        ax.tick_params(axis="x", labelsize=7)
+    _legend(fig, plt, [("operator", "operator channel"), ("peer", "peer messages")], y=.01)
+    fig.tight_layout(rect=(0, .1, 1, 1))
+    _save(fig, plt, out, "fig12-same-words-sync")
+
+
 def _action_figure(plt, rows, out):
     conditions = (
         ("no-approval", "no\napproval", GREY, ".."),
@@ -317,6 +332,7 @@ def generate_figures(out):
                   {"bare-reminder": "control", "labelled-bare-reminder": "control", "peer-third-person-approval": "peer", "peer-quoted-operator-approval": "peer", "operator-first-person-approval": "operator", "operator-third-person-approval": "operator"},
                   out, "fig9-second-convention", size=(8.8, 4.8), legend=[("control", "reminder control"), ("peer", "peer approval"), ("operator", "operator approval")])
     _same_words_figure(plt, [r for r in formatting if r["experiment"] in ("identical-approval-sync", "identical-approval-file")], out)
+    _same_words_sync_figure(plt, [r for r in formatting if r["experiment"] == "identical-approval-sync"], out)
     _action_figure(plt, [r for r in actions if r["stage"] == "main"], out)
     return sorted(out.glob("*.png"))
 

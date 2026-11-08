@@ -6,7 +6,7 @@ export PYTHONPATH="$(pwd)/src${PYTHONPATH:+:$PYTHONPATH}"
 echo "== Verify saved data, criteria, tables, labels, costs, and independent rescoring"
 python3 -m approval_relay.cli verify --out results/summary.json
 
-echo "== Regenerate all 11 figures (rendering can vary by platform)"
+echo "== Regenerate all 12 figures (rendering can vary by platform)"
 python3 -m approval_relay.figures --out results/figures
 
 echo "== Offline tests"

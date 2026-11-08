@@ -13,7 +13,7 @@ This repository is a standalone reproduction package.
 - Exact natural-relay and monitor inputs, with no extra downloads.
 - Both natural-relay hand-labelling passes and their independence caveat.
 - Descriptive experiment and condition names, with all 45 preregistered criteria and outcomes.
-- Offline analysis, independent rescoring, statistical checks, and all 11 figures.
+- Offline analysis, independent rescoring, statistical checks, and all 12 figures.
 - Prompt inspection, mock runs, and an explicitly capped live runner for new experiments.
 - Privacy-reduced token records supporting the cost disclosures.
 
