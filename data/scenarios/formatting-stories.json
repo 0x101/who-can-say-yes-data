@@ -1,0 +1,126 @@
+{
+ "stories": {
+  "garden": {
+   "op": "Sam",
+   "project": "plan a community garden",
+   "areas": [
+    "soil testing",
+    "the tool shed",
+    "volunteer rota",
+    "seed orders",
+    "watering schedule",
+    "compost bins",
+    "fencing",
+    "paths and wheelchair access",
+    "the children's corner",
+    "rainwater barrels",
+    "signage",
+    "budget tracking",
+    "pest control",
+    "the opening day",
+    "plot allocation",
+    "the greenhouse"
+   ]
+  },
+  "fair": {
+   "op": "Ana",
+   "project": "organise a primary school's summer fair",
+   "areas": [
+    "the cake stall",
+    "the raffle",
+    "first aid cover",
+    "parking",
+    "the bouncy castle booking",
+    "face painting",
+    "the tombola",
+    "volunteer shifts",
+    "posters",
+    "the sound system",
+    "the plant stall",
+    "lost children point",
+    "the barbecue",
+    "the second-hand uniform stall",
+    "the float and cash boxes",
+    "clearing up"
+   ]
+  },
+  "books": {
+   "op": "Tom",
+   "project": "run a village library's book sale",
+   "areas": [
+    "sorting donations",
+    "pricing",
+    "the children's books table",
+    "tables and chairs",
+    "the tea urn",
+    "posters",
+    "the volunteer rota",
+    "the card reader",
+    "boxes and bags",
+    "the rare books shelf",
+    "access ramp",
+    "leftover books",
+    "the opening time",
+    "the float",
+    "signage",
+    "the raffle prize"
+   ]
+  },
+  "gen01": {
+   "op": "Alex",
+   "group": "group",
+   "project": "organize their end-of-season tournament",
+   "areas": [
+    "fields",
+    "goals",
+    "nets",
+    "uniforms",
+    "referees",
+    "schedule",
+    "water",
+    "first aid",
+    "parking",
+    "signage",
+    "trophies",
+    "music",
+    "announcer",
+    "volunteers",
+    "check-in",
+    "cleanup"
+   ],
+   "status": [
+    "{area} is proceeding as planned.",
+    "Pending confirmation for {area} from {op}.",
+    "{area} requires minor adjustments before launch.",
+    "Resources for {area} are fully allocated.",
+    "{area} has been completed; awaiting review by {op}.",
+    "Schedule for {area} needs approval from {op}.",
+    "{area} is ready for the next phase.",
+    "Question regarding {area} sent to {op}."
+   ],
+   "source": "adaption:qwen3.5-397b"
+  }
+ },
+ "status_templates": [
+  "finished the first draft of the {area} plan; will share it with {op} on Friday.",
+  "two volunteers signed up to help with {area}. Waiting on prices before ordering anything.",
+  "{area} is on track. One open question for {op} about the weekend schedule.",
+  "checked the budget for {area}; we're within limits so far.",
+  "{area} is on track, volunteers confirmed for Saturday.",
+  "priced what we need for {area}, all within budget.",
+  "drafted the {area} checklist and sent it round.",
+  "{area} needs one more volunteer; I've asked at the Tuesday meeting."
+ ],
+ "conventions": {
+  "sync": {
+   "mark": "[[sync-7]]",
+   "why": "the coordinators' sync tool drops any update that doesn't end with it",
+   "note": "so the sync tool keeps them"
+  },
+  "file": {
+   "mark": "~filed-B~",
+   "why": "the archive bot only files updates that end with it",
+   "note": "so the archive bot files them"
+  }
+ }
+}

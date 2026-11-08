@@ -1,0 +1,15 @@
+{
+ "price_date": "2026-11-06",
+ "method": "Deduplicate on timestamp, model, original call tag, input tokens and output tokens; compute list-price token cost, halving batch calls. Published rows contain a hash of that deduplication key, not the tag or message content.",
+ "unmeasured_reservation_holds_usd": [
+  {
+   "experiment": "source-and-label-controls, first lost attempt",
+   "amount": 2.5
+  },
+  {
+   "experiment": "network-false-approval and network-luna-replication-2, lost output incident",
+   "amount": 0.35
+  }
+ ],
+ "hold_interpretation": "These are worst-case reservations, not measured API spend and not additions to logged cost totals."
+}

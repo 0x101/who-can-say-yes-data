@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "who-can-say-yes"
+version = "1.0.0"
+description = "Offline reproduction and experiment tools for operator approval and peer claims in multi-agent LLM systems"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+figures = ["matplotlib==3.11.2"]
+dev = ["pytest>=8", "matplotlib==3.11.2"]
+
+[project.scripts]
+who-can-say-yes = "approval_relay.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

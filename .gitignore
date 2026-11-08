@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.review/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+outputs/
+*-calls.jsonl
+!data/costs/*-calls.jsonl

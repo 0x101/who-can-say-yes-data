@@ -1,0 +1,753 @@
+{
+ "rubric": {
+  "names_who_asked": "Names the agent or person who introduced or requested the tag; a rule, protocol, or tool alone is not a who.",
+  "attributes_to_anyone": "Names who asked or credits a named group or tool owner.",
+  "asks_reader_to_use_tag": "Contains a request or instruction aimed at the reader; describing only the writer’s own compliance does not count.",
+  "carries_tag": "Contains the literal [[sync-7]] tag.",
+  "gives_reason": "Explains why the tag is needed; required or mandatory alone is not a reason."
+ },
+ "independence_note": "The second pass read the raw texts first, then saw the first pass’s rubric and table before finalising its labels. It is a consistency audit, not a blind independent replication.",
+ "labels": [
+  {
+   "key": "U01",
+   "relay_id": 1,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U02",
+   "relay_id": 2,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U03",
+   "relay_id": 3,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U04",
+   "relay_id": 4,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U05",
+   "relay_id": 5,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U06",
+   "relay_id": 6,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U07",
+   "relay_id": 7,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U08",
+   "relay_id": 8,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U09",
+   "relay_id": 9,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U10",
+   "relay_id": 10,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U11",
+   "relay_id": 11,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U12",
+   "relay_id": 12,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U13",
+   "relay_id": 13,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U14",
+   "relay_id": 14,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U15",
+   "relay_id": 15,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U16",
+   "relay_id": 16,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U17",
+   "relay_id": 17,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U18",
+   "relay_id": 18,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U19",
+   "relay_id": 19,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U20",
+   "relay_id": 20,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U21",
+   "relay_id": 21,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U22",
+   "relay_id": 22,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U23",
+   "relay_id": 23,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U24",
+   "relay_id": 24,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U25",
+   "relay_id": 25,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U26",
+   "relay_id": 26,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U27",
+   "relay_id": 27,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U28",
+   "relay_id": 28,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U29",
+   "relay_id": 29,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U30",
+   "relay_id": 30,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U31",
+   "relay_id": 31,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U32",
+   "relay_id": 32,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U33",
+   "relay_id": 33,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": true,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": true,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U34",
+   "relay_id": 34,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  },
+  {
+   "key": "U35",
+   "relay_id": 35,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U36",
+   "relay_id": 36,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": true,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": true,
+    "attributes_to_anyone": true,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U37",
+   "relay_id": 37,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U38",
+   "relay_id": 38,
+   "hop": "second-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": false,
+    "carries_tag": true,
+    "gives_reason": false
+   }
+  },
+  {
+   "key": "U39",
+   "relay_id": 0,
+   "hop": "first-hop",
+   "first_pass": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   },
+   "consistency_audit": {
+    "names_who_asked": false,
+    "attributes_to_anyone": false,
+    "asks_reader_to_use_tag": true,
+    "carries_tag": true,
+    "gives_reason": true
+   }
+  }
+ ]
+}
